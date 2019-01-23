@@ -1,0 +1,14 @@
+/* Class Styles ************/
+
+.try-it-free-top-btn {
+  float: right;
+  background-color: white;
+  padding: 5px 30px;
+}
+
+/* Selector Styles ************/
+
+header {
+  padding: 15px;
+}
+
