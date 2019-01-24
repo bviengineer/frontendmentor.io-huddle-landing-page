@@ -1,14 +1,15 @@
 /* Class Styles ************/
-
 .try-it-free-top-btn {
   float: right;
   background-color: white;
   padding: 5px 30px;
 }
 
-/* Selector Styles ************/
 
+/* Selector Styles ************/
 header {
   padding: 15px;
+  height: 500px;
+  background: yellow;
+  background-image: linear-gradient(to right, hsl(214, 64%, 98%), hsl(322, 100%, 66%),  hsl(265, 100%, 66%));
 }
-
