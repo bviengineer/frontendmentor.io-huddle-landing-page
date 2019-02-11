@@ -45,6 +45,12 @@ body {
   box-shadow: 40px 30px 10px transparent ;
 }
 
+.copyright {
+  font-size: 11x;
+  color: white;
+}
+
+
 /* SELECTOR STYLES ************/
 
 /* header {
@@ -74,6 +80,10 @@ h3 {
   font-weight: 600;
 }
 
+h4 {
+  font-weight: strong;
+}
+
 p {
  font-family: "Open Sans", sans-serif;
  color: gray;
@@ -83,8 +93,9 @@ button {
   font-family: "Open Sans", sans-serif;
   background-color: hsl(322, 100%, 66%);
   color: white;
+  font-weight: 800;
   text-align: center;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -97,3 +108,62 @@ main section p {
 main section button {
   padding: 10px 30px;
 }
+
+footer {
+  background-color: black;  
+  color: white;
+  padding: 20px 0 5px;
+  height: auto;
+  text-align: center;
+} 
+
+footer img {  
+  width: 50%;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  filter: saturate(0) invert(50%) brightness(900%);
+}
+
+footer ul {
+  padding-top: 50px 0;
+  text-align: left;
+}
+
+footer ul li {
+  list-style-type: none;
+  line-height: 2;
+}
+
+footer h4 {
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+footer p {
+  font-size: 13px;
+  color: white;
+  padding: 0 20px;
+}
+
+footer input {
+  height: 45px;
+  width: 300px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer button {
+  height: 45px;
+  width: 300px;
+  margin-bottom: 100px;
+}
+
+i {
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 30px;
+}
+
+
