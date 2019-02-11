@@ -7,8 +7,24 @@ body {
   background-color: hsl(214, 64%, 98%);
 }
 
-/* CLASS STYLES*********** */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 
+button {
+  background-color: hsl(322, 100%, 66%);
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+}
+
+
+/* Header Styles*********** */
 /*.header-gradient {
   /* position: relative; */
   /* top: -55px;
@@ -21,54 +37,18 @@ body {
   margin-top: 200px;
 } */
 
-.try-it-free-top-btn {
-  background-color: yellow;
-  padding: 5px 30px;
-}
-
-.body-get-started-free-btn {
-  padding: 10px 30px;
-  margin-top: 40px;
-}
-
-.illustration-users-img {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.body-try-it-free {
-  margin: 100px auto;
-  padding: 20px 10px 40px;
-  background-color: white;
-  border-radius: 5px;
-  text-align: center;
-  box-shadow: 40px 30px 10px transparent ;
-}
-
-.copyright {
-  font-size: 11x;
-  color: white;
-}
-
-
-/* SELECTOR STYLES ************/
-
 /* header {
   background-color: hsl(214, 64%, 98%);
 } */
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
 
-h2, h3, p {
+/* Body Styles & Footer ************/
+main {
+  padding: 15px;
   text-align: center;
 }
 
-h2, h3 {
+h2, h3, h4 {
   font-family: "Poppins", sans-serif;
 }
 
@@ -76,37 +56,46 @@ h2 {
   font-weight: 700;
 }
 
-h3 {
+h3, h4 {
   font-weight: 600;
 }
 
-h4 {
-  font-weight: strong;
-}
-
-p {
- font-family: "Open Sans", sans-serif;
- color: gray;
-}
-
-button {
+p, button, ul {
   font-family: "Open Sans", sans-serif;
-  background-color: hsl(322, 100%, 66%);
-  color: white;
-  font-weight: 800;
+  color: gray;
+ }
+
+.feature-text {
+  margin-bottom: 50px;
+}
+
+.illustration-users-img {
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+
+.body-try-it-free {
+  margin: 100px 0;
+  padding: 20px 10px 40px;
+  background-color: white;
+  border-radius: 5px;
   text-align: center;
-  /* border-radius: 5px; */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  box-shadow: 40px 30px 10px transparent ;
+}
+
+.body-get-started-free-btn {
+  padding: 10px 30px;
+  margin-top: 40px;
+  color: white;
 }
 
 main section p {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 main section button {
   padding: 10px 30px;
+  color: white;
 }
 
 footer {
@@ -119,7 +108,7 @@ footer {
 
 footer img {  
   width: 50%;
-  padding-top: 75px;
+  padding-top: 70px;
   padding-bottom: 50px;
   filter: saturate(0) invert(50%) brightness(900%);
 }
@@ -127,11 +116,13 @@ footer img {
 footer ul {
   padding-top: 50px 0;
   text-align: left;
+  color: white;
 }
 
 footer ul li {
   list-style-type: none;
   line-height: 2;
+  font-size: 14px;
 }
 
 footer h4 {
@@ -158,12 +149,27 @@ footer button {
   height: 45px;
   width: 300px;
   margin-bottom: 100px;
+  color: white;
 }
 
+/* Social Media Icons */
 i {
   display: inline-block;
   padding-right: 5px;
   font-size: 30px;
 }
 
+.copyright {
+  font-size: 11px;
+  color: white;
+}
 
+.attribution { 
+  font-size: 11px; 
+  text-align: 
+  center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
