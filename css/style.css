@@ -30,7 +30,7 @@ button {
 }
 
 
-/* Header Styles*********** */
+/* Header Styles*/
 header {
   margin-bottom: 100px;
 }
@@ -45,26 +45,26 @@ header img {
 .try-it-free-top-btn {
  display: inline;
  color: hsl(265, 100%, 66%);
+ font-size: 12px;
  background-color: hsl(214, 64%, 98%);
- margin-left: 150px;
+ margin-left: 250px;
+ padding: 3px 40px;
+ border: 3px solid hsl(214, 64%, 98%);; 
+ border-radius: 2px;
 }
 
-/*.header-gradient {
-  /* position: relative; */
-  /* top: -55px;
-  left: 300px; */
-  /* border-top-left-radius: 10px; 
-  transform: rotate(35deg);
+.header-decorative-box {
+  position: absolute;
+  color: transparent;
+  height: 475px;
+  width: 500px;
+  top: 0;
+  right: 0;
+  left: 125px;  
+  z-index: -1;
+  border-radius: 50%;
   background-image:  linear-gradient(to bottom, hsl(322, 100%, 66%),  hsl(265, 100%, 66%));
-  height: 900px;
-  margin-left: 500px;
-  margin-top: 200px;
-} */
-
-/* header {
-  background-color: hsl(214, 64%, 98%);
-} */
-
+}
 
 /* Body & Footer Styles************/
 main {
