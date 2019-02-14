@@ -165,7 +165,7 @@ footer ul {
 
 footer ul li {
   list-style-type: none;
-  line-height: 2;
+  line-height: 2.5;
   font-size: 14px;
 }
 
@@ -177,7 +177,7 @@ footer h4 {
 footer p {
   font-size: 13px;
   color: white;
-  padding: 0 50px;
+  padding: 0 70px;
 }
 
 footer input {
