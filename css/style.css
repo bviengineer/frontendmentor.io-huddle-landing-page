@@ -103,7 +103,7 @@ p, button, ul {
    top: 295px;
    left: 30px;
    right: 0;
-   z-index: -1;
+   z-index: -2;
    background-color: white;
    position: absolute;  
    transform: rotate(145deg); 
@@ -179,7 +179,8 @@ footer h4 {
 footer p {
   font-size: 13px;
   color: white;
-  padding: 0 70px;
+  padding: 0 65px;
+  text-align: center;
 }
 
 footer input {
