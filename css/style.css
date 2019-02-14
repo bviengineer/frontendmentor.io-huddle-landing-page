@@ -120,13 +120,14 @@ p, button, ul {
   margin-bottom: 100px;
 }
 
+  /* Try it Free card styles near footer of page*/
 .body-try-it-free {
   margin: 100px -40px 50px;
   padding: 10px 5px 40px;
   background-color: white;
   border-radius: 5px;
   text-align: center;
-  box-shadow: 40px 30px 10px transparent ;
+  box-shadow: 10px 10px 10px #f1f1f1;
 }
 
 .body-get-started-free-btn {
@@ -142,6 +143,7 @@ main section button {
   padding: 10px 30px;
 }
 
+  /* footer styles */
 footer {
   background-color: black;  
   color: white;
